@@ -2,7 +2,10 @@
 - var scripts = getBlock('scripts')
 - var styles = getBlock('styles')
 
-- styles.add(["styles/site.css")
+- styles.add(["styles/site.css"])
+- scripts.add(['http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'])
+- scripts.add(['scripts/jquery.min.js'])
+- scripts.add(['scripts/vendor.js'])
 - scripts.add(['scripts/site.js'])
 - scripts.add(document.scripts || [ ])
 
@@ -41,7 +44,7 @@ html(lang="en")
     div#page-content-header
     div.global-width
     div#page-content-header-icon-container
-      img(src="/images/icon-developers-01.svg", class="attachment-full", alt="icon_developers-01")
+      img(src="/images/icon_developers-01.svg", class="attachment-full", alt="icon_developers-01")
     div#main(role="main")
       div#page-background-container
         img(src="/images/illustration_02.svg")
@@ -53,5 +56,6 @@ html(lang="en")
       
     
     // Scripts
+    script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
     != scripts.toHTML()
 
