@@ -1,0 +1,11 @@
+{
+  "name": "dropzone-git-upload",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Ben West",
+  "license": "BSD-2-Clause"
+}
