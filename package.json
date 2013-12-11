@@ -7,5 +7,14 @@
     "test": "make test"
   },
   "author": "Ben West",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "jade": "~0.35.0",
+    "docpad-plugin-eco": "~2.0.2",
+    "docpad-plugin-jade": "~2.6.1",
+    "marked": "~0.2.10",
+    "eco": "~1.1.0-rc-3",
+    "docpad-plugin-ghpages": "~2.4.0",
+    "docpad": "~6.57.1"
+  }
 }
