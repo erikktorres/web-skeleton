@@ -1,0 +1,3 @@
+
+web: nodemon -w src/ node_modules/.bin/docpad-server -p $PORT
+
