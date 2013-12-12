@@ -1,8 +1,9 @@
 {
-  "name": "dropzone-git-upload",
+  "name": "web-skeleton",
   "version": "0.0.1",
   "description": "",
   "main": "server.js",
+  "private": true,
   "scripts": {
     "test": "make test"
   },

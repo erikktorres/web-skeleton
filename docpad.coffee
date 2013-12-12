@@ -7,8 +7,8 @@ docpadConfig = {
   port: port
   templateData:
     site:
-      url: ""
-      title: ""
+      url: "http://tidepool-org.github.io/web-skeleton/"
+      title: "Simple static web page demonstrating web styles"
       description: ""
       keywords: ""
       author: "Tidepool contributors"
@@ -27,17 +27,17 @@ docpadConfig = {
 
 
     getViewGH: ->
-      prefix = 'https://github.com/medevice-users/gallery'
+      prefix = 'https://github.com/tidepool-org/web-skeleton'
       action = 'blob/master/src/documents'
       path = @document.relativePath
       "#{prefix}/#{action}/#{path}"
     getProse: ->
-      prefix = 'http://prose.io/#medevice-users/gallery'
+      prefix = 'http://prose.io/#tidepool-org/web-skeleton'
       edit = 'edit/master/src/documents'
       path = @document.relativePath
       "#{prefix}/#{edit}/#{path}"
     getGithub: ->
-      prefix = 'https://github.com/medevice-users/gallery'
+      prefix = 'https://github.com/tidepool-org/web-skeleton'
       edit = 'edit/master/src/documents'
       path = @document.relativePath
       "#{prefix}/#{edit}/#{path}"
