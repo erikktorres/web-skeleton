@@ -299,7 +299,7 @@ body {
 .trigger-navigation-main {
 	display: none;
 	float: right;
-	background: url('images/icon-navigation_main.svg') no-repeat center center;
+	background: url('../images/icon-navigation_main.svg') no-repeat center center;
 	border: medium none;
 	cursor: pointer;
 	height: 30px;
@@ -310,7 +310,7 @@ body {
 }
 
 	.trigger-navigation-main:hover {
-		background: #FF8D79 url('images/icon-navigation_main.svg') no-repeat center center;
+		background: #FF8D79 url('../images/icon-navigation_main.svg') no-repeat center center;
 	}
 
 .menu {
@@ -622,7 +622,7 @@ a:hover {
 #blog-title {
 	height: 25px;
 	width: 228px;
-	background: url('images/logo-tidepool.svg') no-repeat;
+	background: url('../images/logo-tidepool.svg') no-repeat;
 	text-indent: -9999px;
 }
 
@@ -1580,7 +1580,7 @@ li.content-column {
 		height: 100%;
 		width: 100%;
 		display: block;
-		background: url('images/icon-arrow_up.svg') no-repeat;
+		background: url('../images/icon-arrow_up.svg') no-repeat;
 	}
 
 #footer-inner {
@@ -1654,15 +1654,15 @@ li.content-column {
 #menu-item-258 {}
 	
 	#menu-item-258 a {
-		background: url('images/icon-twitter.svg') no-repeat;
+		background: url('../images/icon-twitter.svg') no-repeat;
 	}
 	
 	#menu-item-259 a {
-		background: url('images/icon-google_plus.svg') no-repeat;
+		background: url('../images/icon-google_plus.svg') no-repeat;
 	}
 	
 	#menu-item-260 a {
-		background: url('images/icon-facebook.svg') no-repeat;
+		background: url('../images/icon-facebook.svg') no-repeat;
 	}
 
 	#siteinfo {
